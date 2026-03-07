@@ -42,3 +42,4 @@ class Program
             Console.WriteLine("Don't give up! You can do better next time!");
         }
     }
+}
