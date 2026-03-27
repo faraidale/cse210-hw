@@ -9,24 +9,24 @@ class Program
         List<Video> videos = new List<Video>();
 
         // Create first video
-        Video video1 = new Video("How to Cook Perfect Rice", "Chef Sarah", 420);
-        video1.AddComment(new Comment("John", "This really helped! My rice came out perfect!"));
+        Video video1 = new Video("How to Cook Perfect Rice", "Chef Lesedi", 420);
+        video1.AddComment(new Comment("Rufaro", "This really helped! My rice came out perfect!"));
         video1.AddComment(new Comment("Maria", "Great tips, especially about the water ratio."));
-        video1.AddComment(new Comment("David", "I've been cooking rice wrong my whole life!"));
+        video1.AddComment(new Comment("Shingai", "I've been cooking rice wrong my whole life!"));
         video1.AddComment(new Comment("Lisa", "Simple and clear instructions. Thank you!"));
         videos.Add(video1);
 
         // Create second video
         Video video2 = new Video("10 Minute Morning Workout", "FitLife Academy", 600);
         video2.AddComment(new Comment("Mike", "Love this routine! Do it every morning now."));
-        video2.AddComment(new Comment("Emma", "Perfect for busy schedules."));
+        video2.AddComment(new Comment("Mike", "Perfect for busy schedules."));
         video2.AddComment(new Comment("Carlos", "Can you make a version for beginners?"));
         videos.Add(video2);
 
         // Create third video
         Video video3 = new Video("Introduction to Python Programming", "CodeMaster", 1800);
         video3.AddComment(new Comment("Alice", "Best Python tutorial I've found!"));
-        video3.AddComment(new Comment("Bob", "Very clear explanations for beginners."));
+        video3.AddComment(new Comment("Tino", "Very clear explanations for beginners."));
         video3.AddComment(new Comment("Sophie", "The examples really helped me understand."));
         video3.AddComment(new Comment("James", "Will you make more advanced tutorials?"));
         videos.Add(video3);
