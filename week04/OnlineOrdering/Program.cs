@@ -19,7 +19,7 @@ class Program
         order1.AddProduct(product3);
 
         // Create second order (International customer)
-        Address address2 = new Address("45 Victoria Street", "Harare", "Harare Province", "Zimbabwe");
+        Address address2 = new Address("45 Victoria Street", "Harare", "Mashonaland East Province", "Zimbabwe");
         Customer customer2 = new Customer("Farai Rwambiwa", address2);
         Order order2 = new Order(customer2);
 
