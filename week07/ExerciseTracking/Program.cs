@@ -5,6 +5,7 @@ class Program
 {
     static void Main(string[] args)
     {
+        // Tested succesfully on my new Dell Latitude!
         // Create a list to store activities
         List<Activity> activities = new List<Activity>();
 
